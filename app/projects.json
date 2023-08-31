@@ -1,20 +1,23 @@
 [
     {
         "id": "1",
-        "img": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "title": "Appartement cosy",
-        "text": "Lorem ipsum blablabla"
+        "img": "/assets/kasasmall.png",
+        "title": "Kasa",
+        "text": "Ce site de réservation d'appartements a aussi été créé dans le cadre de la formation Développeur Web d'OpenClassRooms. Découverte de React pour ce projet, il fallait utiliser un maximum le principe de composants réutilisable.",
+        "url": "https://ocproject6.vercel.app/"
     },
     {
-        "id": "1",
-        "img": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "title": "Appartement cosy",
-        "text": "Lorem ipsum blablabla"
+        "id": "2",
+        "img": "/assets/ninacarduccismall.png",
+        "title": "Portfolio de Nina Carducci",
+        "text": "Dans le cadre de la formation Développeur Web d'OpenClassRooms, je devais optimiser le portfolio d'une photographe et corriger 2 fonctionnalités du site. J'ai utilisé des outils tel que Lightouse (SEO, performances) et Wave (Accessibilité). Le plus gros challenge a été d'obtenir un score au dessus de 90 pour les performances dans Lightouse. Pour y arriver, j'ai compressé les images du site, réduit leur poids et redimensionné leur taille.",
+        "url": "https://saminassim.github.io/OCProject5/"
     },
     {
-        "id": "1",
-        "img": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "title": "Appartement cosy",
-        "text": "Lorem ipsum blablabla"
+        "id": "3",
+        "img": "/assets/bookismall.png",
+        "title": "Booki",
+        "text": "Site d'agence de voyage créé dans le cadre de la formation Développeur Web d'OpenClassRooms. Ce fut le premier vrai projet de la formation, la découverte de HTML et CSS a été un vrai challenge surtout lorsqu'on débute. Le Responsive Design (affichage de la page selon les formats d'écrans) a aussi été un des obstacles, il a fallu prendre le temps de modifier les éléments en fonction de la largeur d'écran de l'utilisateur. (Bureau, tablette et mobile)",
+        "url": "https://saminassim.github.io/OCProject2/"
     }
 ]

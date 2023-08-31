@@ -19,12 +19,12 @@ export default function RootLayout({
   return (
     <html lang="fr" suppressHydrationWarning>
       <body className={inter.className}>
-        <main>
-          <Providers>
-            <Header />
+        <Providers>
+          <Header />
+          <main className='absolute w-full mt-20'>
             {children}
-          </Providers>
-        </main>
+          </main>
+        </Providers>
       </body>
     </html>
   )
