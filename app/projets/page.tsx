@@ -1,9 +1,13 @@
 'use client'
 
-import Link from "next/link"
-import Project from "../components/Project"
 import data from "../projects.json"
 import { motion } from "framer-motion"
+import dynamic from "next/dynamic"
+
+const Project = dynamic(
+    () => import('../components/Project'),
+    { ssr: false }
+)
 
 function Projets() {
 
@@ -21,7 +25,7 @@ function Projets() {
                 {data.map(project => (
 
                     <li key={project.id} className="card">
-                        <Project img={project.img} title={project.title} text={project.text} url={project.url} />
+                        <Project img={project.img} title={project.title} stack={project.stack} text={project.text} url={project.url} github={project.github} />
                     </li>
 
                 ))}

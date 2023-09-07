@@ -1,5 +1,5 @@
 'use client'
-import { MdSettingsBrightness, MdOutlineMenu, MdLightbulb } from "react-icons/md";
+import { MdOutlineMenu, MdLightbulb } from "react-icons/md";
 import { IconContext } from "react-icons";
 import { useTheme } from "next-themes";
 import Link from "next/link";
@@ -35,7 +35,7 @@ function Header() {
                 <ul className="inline-flex list-none justify-between items-center ml-3">
                     <Link href="/"><li className="li__desk">Accueil</li></Link>
                     <Link href="/projets"><li className="li__desk">Projets</li></Link>
-                    <Link href="https://github.com/SamiNassim"><li className="li__desk">Github</li></Link>
+                    <Link href="https://github.com/SamiNassim" target="_blank"><li className="li__desk">Github</li></Link>
                     <Link href="/contact"><li className="li__desk">Contact</li></Link>
                 </ul>
                 <div>
@@ -59,7 +59,7 @@ function Header() {
                     <ul className="ul__mobile flex flex-col list-none justify-between items-center">
                         <Link href="/" onClick={closeDrawer}><li className="li__mobile">Accueil</li></Link>
                         <Link href="/projets" onClick={closeDrawer}><li className="li__mobile">Projets</li></Link>
-                        <Link href="https://github.com/SamiNassim" onClick={closeDrawer}><li className="li__mobile">Github</li></Link>
+                        <Link href="https://github.com/SamiNassim" onClick={closeDrawer} target="_blank"><li className="li__mobile">Github</li></Link>
                         <Link href="/contact" onClick={closeDrawer}><li className="li__mobile">Contact</li></Link>
                     </ul>
                 </div>

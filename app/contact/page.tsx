@@ -1,7 +1,7 @@
 "use client"
 
 import 'dotenv/config';
-import React, { useRef } from 'react';
+import React from 'react';
 import { motion } from "framer-motion"
 import Link from 'next/link';
 
@@ -17,7 +17,7 @@ function Contact() {
                     delay: 0.1,
                     ease: [0, 0.71, 0.2, 1.01]
                 }}
-                className='contact flex justify-center items-center flex-col'>
+                className='contact flex justify-center items-center flex-col mb-10'>
                 <h1 className='text-4xl mb-10'>Contact</h1>
                 <p className='p-4 mb-10'>
                     Si vous souhaitez discuter de projets web passionnants, n'hésitez pas à me contacter !<br />
