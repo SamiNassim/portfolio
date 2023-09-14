@@ -26,7 +26,7 @@ function Contact() {
                     Mon objectif est de vous fournir des solutions sur mesure, adaptées à vos besoins spécifiques.<br />
                     N'hésitez pas à me contacter via LinkedIn. Je serai ravi de discuter avec vous et de collaborer pour réaliser vos objectifs web.
                 </p>
-                <Link href="https://www.linkedin.com/in/sami-bououdine-4b7273281/">
+                <Link href="https://www.linkedin.com/in/sami-bououdine">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="48" height="48" fill="#1265BF" />
                         <path d="M10.7738 14.9066C13.0735 14.9066 14.9378 13.0423 14.9378 10.7426C14.9378 8.44289 13.0735 6.57861 10.7738 6.57861C8.4741 6.57861 6.60982 8.44289 6.60982 10.7426C6.60982 13.0423 8.4741 14.9066 10.7738 14.9066Z" fill="white" />
