@@ -1,4 +1,4 @@
-<h1>Portfolio</h1>
+<h1><a href="https://portfolio-saminassim.vercel.app/">Portfolio</h1></a>
 
 Mon portfolio qui était aussi le dernier projet de ma formation de développeur web chez OpenClassrooms. </br>
 Pour ce projet, il n'y avait pas de restrictions particulières, excepté ne pas utiliser d'outil "NoCode". (Wix, Wordpress etc)</br>
@@ -7,3 +7,5 @@ J'ai donc opté pour des technologies que je n'avais jamais utilisé pour décou
 NextJS 13, React, TypeScript, FramerMotion.
 
 J'ai prévu de le refaire en entier lorsque j'aurai de nouveaux projets à exposer.
+
+<a href="https://portfolio-saminassim.vercel.app/">Lien du portfolio déployé via Vercel</a>
