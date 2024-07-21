@@ -5,6 +5,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
@@ -30,23 +31,30 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="fr">
-      <head />
-      <body
-        className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
-        )}
-      >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-          <div className="relative flex h-screen flex-col">
-            <Navbar />
-            <main className="container mx-auto max-w-7xl flex-grow px-6 pt-16">
-              {children}
-            </main>
-          </div>
-        </Providers>
-      </body>
-    </html>
+    <>
+      <Script
+        src={process.env.UMAMI_SCRIPT}
+        data-website-id={process.env.UMAMI_ID}
+        strategy="afterInteractive"
+      />
+      <html suppressHydrationWarning lang="fr">
+        <head />
+        <body
+          className={clsx(
+            "min-h-screen bg-background font-sans antialiased",
+            fontSans.variable,
+          )}
+        >
+          <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
+            <div className="relative flex h-screen flex-col">
+              <Navbar />
+              <main className="container mx-auto max-w-7xl flex-grow px-6 pt-16">
+                {children}
+              </main>
+            </div>
+          </Providers>
+        </body>
+      </html>
+    </>
   );
 }
