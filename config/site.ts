@@ -1,28 +1,28 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Portfolio Sami Bououdine",
+  description: "Développeur Fullstack",
   navItems: [
     {
-      label: "Home",
+      label: "Accueil",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "À propos",
+      href: "#about",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Technologies",
+      href: "#technos",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Projets",
+      href: "#projects",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Contact",
+      href: "#contact",
     },
   ],
   navMenuItems: [
@@ -59,11 +59,29 @@ export const siteConfig = {
       href: "/logout",
     },
   ],
-  links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
-  },
 };
+
+export const iconSlugs = [
+  "typescript",
+  "javascript",
+  "java",
+  "react",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "amazonaws",
+  "postgresql",
+  "vercel",
+  "docker",
+  "git",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "figma",
+  "mongodb",
+  "springboot",
+  "intellijidea",
+];
