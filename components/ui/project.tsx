@@ -98,7 +98,7 @@ const Project = ({
                 <div>
                   <h1 className="py-2 text-lg font-bold">Côté technique</h1>
                   <div
-                    className="flex flex-col items-center justify-between gap-4 lg:flex-row"
+                    className="flex flex-col justify-between gap-4 lg:flex-row"
                     dangerouslySetInnerHTML={{ __html: technical! }}
                   ></div>
                 </div>
