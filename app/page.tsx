@@ -1,12 +1,8 @@
 "use client";
 
 import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
-import { iconSlugs, siteConfig } from "@/config/site";
+import { iconSlugs } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
 import { motion } from "framer-motion";
 import { Avatar } from "@nextui-org/avatar";
 import TextRevealByWord from "@/components/magicui/text-reveal";
