@@ -76,7 +76,7 @@ export default function Home() {
       </section>
       <section id="projects" className="flex flex-col py-4">
         <h4 className="pb-4 text-xl font-bold">Mes projets</h4>
-        <div className="flex flex-col gap-4 sm:flex-row">
+        <div className="flex flex-col flex-wrap gap-4 sm:flex-row">
           {projects.map((project: ProjectProps, index: number) => (
             <BlurFade key={index} delay={0.25 + index * 0.05} inView>
               <Project
